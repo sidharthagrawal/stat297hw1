@@ -1,8 +1,87 @@
 ---
 title: "Homework 1"
+author: "Sidharth, Kaiyi, Kai, Eric Song"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
+bibliography: biblio.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+#Introduction
+<center>
+```{r, echo=FALSE}
+knitr::include_url("x")
+```
+</center>
+
+##Group Members
+
+###Sidharth
+
+###Kaiyi
+
+###Kai
+
+###Eric Song
+**Picture:**
+
+![Science Department Banner](http://science.psu.edu/psu_eberly_blue.png)
+
+**My Favorite Hobby & Interesting Fact:**
+
+**Favorite Quote:**
+
+>***"When Alexander saw the breadth of his domain, he wept for there were no more worlds to conquer."*** @Plutarch
+
+**My Class Schedule:**
+
++--------+-------------+
+|Course  |     Time    |
++========+=============+
+|Stat461 | 8:00am MWF  |
++--------+-------------+
+|Math141 | 9:00am MWF  |
++--------+-------------+
+|Psych470| 1:30pm MWF  |
++--------+-------------+
+|Psych260| 10:30am TTr |
++--------+-------------+
+|Stat297 | 12:00pm TTr |
++--------+-------------+
+
+##R Markdown Syntax
+
+###Chunk
+
+###rnorm
+
+###hist graph
+
+###equation
+$$\begin{aligned}
+     \mathbb{E} \left[ \text{var} \left\{
+                     \boldsymbol{v}_1\left(
+                       \hat{\boldsymbol{\theta}},n\right) \big|
+                     \hat{\boldsymbol{\theta}} \right\}  \right] 
+&=
+                 \text{var} \left\{ \mathbf{v}_1\left(
+                     \boldsymbol{\theta}_0,n\right)  \right\}  +
+                 \mathbb{E} \left[\mathcal{O}_p\left\{
+{\bf D}_1(\boldsymbol{\theta}^*,n)(\hat{\boldsymbol{\theta}} - \boldsymbol{\theta}_{0}), 
+\dots,
+{\bf D}_p(\boldsymbol{\theta}^*,n)(\boldsymbol{\theta} - \boldsymbol{\theta}_{0})
+\right\}\right]\\
+    &= \text{var} \left\{ \mathbf{v}_1\left( \boldsymbol{\theta}_0,n\right)  \right\}  + \mathcal{O}\left(n^{-2}\right).
+\end{aligned}$$
+
+In-line Equation:$\mathbf{A} \equiv \left[a_{i,j}\right]_{i,j = 1, \ldots, p}$
+
+###blue text
+
+###more info
+
+###color box
+
+##References
