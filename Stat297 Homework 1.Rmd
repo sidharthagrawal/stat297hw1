@@ -25,6 +25,7 @@ knitr::include_url("x")
 ###Kai
 
 ###Eric Song
+
 **Picture:**
 
 ![Science Department Banner](http://science.psu.edu/psu_eberly_blue.png)
