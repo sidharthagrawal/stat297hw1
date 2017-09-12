@@ -2,7 +2,8 @@
 title: "Homework 1"
 author: "Sidharth, Kaiyi, Kai, Eric Song"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
-output: html_document
+output:
+   html_document:
       theme: cerulean
       highlight: tango
 bibliography: biblio.bib
