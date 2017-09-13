@@ -92,6 +92,13 @@ knitr::include_url("x")
 |Astro   |   Online    |
 +--------+-------------+
 
+**My Favorite Hobby & Interesting Fact:**
+Eat and travel. I have been to 40 different countries.
+
+**Favorite Quote:**
+What doesn't kill you makes you stronger.
+
+
 ###2.4 Eric Song
 
 **Picture:**
