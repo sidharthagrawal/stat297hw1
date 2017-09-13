@@ -19,6 +19,8 @@ knitr::include_url("x")
 ```
 </center>
 
+***"We uploaded a video wherein we intrudouce ourselves and then share our favorite quote, our hobbies and our class schedules. THen we followed the instructions in the homework to complete all the tasks."***
+
 ##Group Members
 
 ###Sidharth
