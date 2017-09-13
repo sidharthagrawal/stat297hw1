@@ -54,6 +54,8 @@ knitr::include_url("x")
 ###2.2 Kaiyi Wu
 **Picture:**
 
+![Cute Hamster](https://fthmb.tqn.com/iajsvlclbrt-MRTTBUdl9F420Ow=/960x0/filters:no_upscale()/about/103304021-56a2bcfc3df78cf772796214.jpg){width=50%}
+
 **My Class Schedule:**
 
 +--------+-------------+
