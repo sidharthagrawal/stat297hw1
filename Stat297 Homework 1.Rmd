@@ -145,10 +145,27 @@ x = rnorm(100)
 (mean = mean (x))
 (median = median(x))
 (variance = var(x))
-
+if(mean == 0){
+  print("The mean is equal to the theoretical value")
+} else{
+  print("The mean is not equal to the theoretical value")
+}
+if(median == 0){
+  print("The median is equal to the theoretical value")
+} else{
+  print("The median is not equal to the theoretical value")
+}
+if(variance == 1){
+  print("The variance is equal to the theoretical value")
+} else{
+  print("The variance is not equal to the theoretical value")
+}
 ```
 
 ###4.3 hist graph
+```{r, fig.cap=paste("The histgram of x")}
+hist(x)
+```
 
 ###4.4 equation
 $$\begin{aligned}
