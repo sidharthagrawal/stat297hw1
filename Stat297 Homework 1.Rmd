@@ -23,16 +23,30 @@ knitr::include_url("x")
 
 ###Sidharth
 
+**Picture:**
+
+![Indian Flag](http://www.indiacelebrating.com/wp-content/uploads/Flag-of-India.jpg)
+
+**My Favorite Hobby & Interesting Fact:**
+
+***"In my free time, I enjoy acrylic painting and pencil sketching. An interesting fact about me is that I have been to 2000 feet below the earch in a gold mine in India."***
+
+**Favorite Quote:**
+
+>***"What barrier is there that love cannot break."*** @Gandhi
+
+**My Class Schedule:**
+
 +--------+-------------+
 |Course  |     Time    |
 +========+=============+
 |Stat500 | 2:30pm MWF  |
 +--------+-------------+
-|Stat297 | 12:05am MWF |
+|Stat297 | 12:05am TR  |
 +--------+-------------+
-|Econ402| 10:35am TR   |
+|Econ402 | 10:35am TR  |
 +--------+-------------+
-|EME 590| 1:00pm F     |
+|EME 590 | 1:00pm F    |
 +--------+-------------+
 
 ###Kaiyi
