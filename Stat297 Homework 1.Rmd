@@ -23,7 +23,28 @@ knitr::include_url("x")
 
 ###Sidharth
 
-###Kaiyi
+###Kaiyi Wu
+**Picture:**
+
+**My Class Schedule:**
+
++--------+-------------+
+|Course  |     Time    |
++========+=============+
+|Stat513 | 09:05am MWF |
++--------+-------------+
+|Kines17 | 10:10am MWF |
++--------+-------------+
+|Stat466 | 11:15pm MWF |
++--------+-------------+
+|Kines77 | 09:05am TTr |
++--------+-------------+
+|Stat297 | 12:05pm TTr |
++--------+-------------+
+
+**My Favorite Hobby & Interesting Fact:**
+
+**Favorite Quote:**
 
 ###Kai
 
