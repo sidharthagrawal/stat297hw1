@@ -23,6 +23,7 @@ knitr::include_url("x")
 
 ###Sidharth
 
+<<<<<<< HEAD
 ###Kaiyi Wu
 **Picture:**
 
@@ -45,6 +46,21 @@ knitr::include_url("x")
 **My Favorite Hobby & Interesting Fact:**
 
 **Favorite Quote:**
+=======
++--------+-------------+
+|Course  |     Time    |
++========+=============+
+|Stat500 | 2:30pm MWF  |
++--------+-------------+
+|Stat297 | 12:05am MWF |
++--------+-------------+
+|Econ402| 10:35am TR   |
++--------+-------------+
+|EME 590| 1:00pm F     |
++--------+-------------+
+
+###Kaiyi
+>>>>>>> 6950854e7336a93562431284e13d2e166ad18ed6
 
 ###Kai
 
