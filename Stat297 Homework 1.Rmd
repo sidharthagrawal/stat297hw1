@@ -12,7 +12,7 @@ bibliography: biblio.bib
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-#Introduction
+#2.0 Introduction
 <center>
 ```{r, echo=FALSE}
 knitr::include_url("x")
@@ -23,7 +23,7 @@ knitr::include_url("x")
 
 ##Group Members
 
-###Sidharth
+###2.1 Sidharth
 
 **Picture:**
 
@@ -51,7 +51,7 @@ knitr::include_url("x")
 |EME 590 | 1:00pm F    |
 +--------+-------------+
 
-###Kaiyi Wu
+###2.2 Kaiyi Wu
 **Picture:**
 
 **My Class Schedule:**
@@ -74,7 +74,7 @@ knitr::include_url("x")
 
 **Favorite Quote:**
 
-###Kai
+###2.3 Kai
 
 +--------+-------------+
 |Course  |     Time    
@@ -90,7 +90,7 @@ knitr::include_url("x")
 |Astro   |     WEB     |
 +--------+-------------+
 
-###Eric Song
+###2.4 Eric Song
 
 **Picture:**
 
@@ -118,9 +118,9 @@ knitr::include_url("x")
 |Stat297 | 12:00pm TTr |
 +--------+-------------+
 
-##R Markdown Syntax
+##4.0 R Markdown Syntax
 
-###Chunk
+###4.1 Chunk
 
 ###4.2
 
@@ -132,9 +132,9 @@ x = rnorm(100)
 
 ```
 
-###hist graph
+###4.3 hist graph
 
-###equation
+###4.4 equation
 $$\begin{aligned}
      \mathbb{E} \left[ \text{var} \left\{
                      \boldsymbol{v}_1\left(
@@ -153,7 +153,7 @@ $$\begin{aligned}
 
 In-line Equation:$\mathbf{A} \equiv \left[a_{i,j}\right]_{i,j = 1, \ldots, p}$
 
-###blue text
+###4.5 blue text
 
 ###more info
 
