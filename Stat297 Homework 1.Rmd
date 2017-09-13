@@ -73,8 +73,11 @@ knitr::include_url("x")
 +--------+-------------+
 
 **My Favorite Hobby & Interesting Fact:**
+***"My hobby is baking. The interesting fact is that I have diffcuilty to read articles of capitcal letters. I didn't start to learn English until junior high, and thus I learnt with very formal textbooks, which are all in lower cases!"***
 
 **Favorite Quote:**
+
+>***"The truth has never been of any real value to any human being; it is a symbol for mathematicians and philosophers to pursue. In human relations kindness and lies are worth a thousand truths."*** @GG
 
 ###2.3 Kai
 
