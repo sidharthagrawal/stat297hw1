@@ -120,7 +120,15 @@ knitr::include_url("x")
 
 ###Chunk
 
-###rnorm
+###4.2
+
+```{r}
+x = rnorm(100)
+(mean = mean (x))
+(median = median(x))
+(variance = var(x))
+
+```
 
 ###hist graph
 
