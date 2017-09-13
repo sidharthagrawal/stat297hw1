@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 #2.0 Introduction
 <center>
 ```{r, echo=FALSE}
-knitr::include_url("x")
+knitr::include_url("https://drive.google.com/file/d/0BxPcGlt5CwbtVmU4VlNMdkw5WFk/preview")
 ```
 </center>
 
@@ -108,11 +108,13 @@ What doesn't kill you makes you stronger.
 
 ###2.4 Eric Song
 
-**Picture:**
 
-![Science Department Banner](http://science.psu.edu/psu_eberly_blue.png)
+![Didadidadididodo Diiidadidido](http://dereksmoore.com//assets/work/hamster-dance/hamsterdance3.gif)
+
+
 
 **My Favorite Hobby & Interesting Fact:**
+I enjoy traveling. My favorite part is seeing new cultures and trying different foods.  I'm currently planning to travel to Europe after I graduate.  An interesting fact is that I've been to most of the countries in Asia and visited over 20 states so far.
 
 **Favorite Quote:**
 
@@ -133,6 +135,7 @@ What doesn't kill you makes you stronger.
 +--------+-------------+
 |Stat297 | 12:00pm TTr |
 +--------+-------------+
+
 
 ##4.0 R Markdown Syntax
 
