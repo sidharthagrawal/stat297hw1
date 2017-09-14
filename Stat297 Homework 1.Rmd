@@ -139,7 +139,22 @@ I enjoy traveling. My favorite part is seeing new cultures and trying different 
 
 ##4.0 R Markdown Syntax
 
-###4.1 Chunk
+###4.1 Cache
+
+Example of cache leading to misleading answers:
+
+```{r, cache=TRUE,results='hide'}
+(x = 8)
+```
+```{r, cache=TRUE,results='hide'}
+(y = 2 * x)
+```
+The current values for $x$ = `r x` and $y$ = `r y`
+
+```{r recalc, cache=TRUE,results='hide'}
+(x = 4)
+```
+The current values for $x$ = `r x` and $y$ = `r y`
 
 ###4.2
 
