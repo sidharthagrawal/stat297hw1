@@ -21,9 +21,11 @@ knitr::include_url("https://drive.google.com/file/d/0BxPcGlt5CwbtVmU4VlNMdkw5WFk
 #2.0 Introduction
 ***"We uploaded a video where we introduced ourselves and then shared our favorite quote, our hobbies and our class schedules. Then we followed the instructions in the homework to complete all the tasks."***
 
+---
+
 ##Group Members
 
-###2.1 Sidharth
+* ###2.1 Sidharth
 
 
 <div style="text-align:center" markdown="1">
@@ -52,7 +54,7 @@ knitr::include_url("https://drive.google.com/file/d/0BxPcGlt5CwbtVmU4VlNMdkw5WFk
 |EME 590 | 1:00pm F    |
 +--------+-------------+
 
-###2.2 Kaiyi Wu
+* ###2.2 Kaiyi Wu
 
 <div style="text-align:center" markdown="1">
 ![Cute Hamster](https://fthmb.tqn.com/iajsvlclbrt-MRTTBUdl9F420Ow=/960x0/filters:no_upscale()/about/103304021-56a2bcfc3df78cf772796214.jpg){width=50%}
@@ -74,13 +76,13 @@ knitr::include_url("https://drive.google.com/file/d/0BxPcGlt5CwbtVmU4VlNMdkw5WFk
 +--------+-------------+
 
 **My Favorite Hobby & Interesting Fact:**
-***"My hobby is baking. The interesting fact is that I have diffcuilty to read articles of capitcal letters. I didn't start to learn English until junior high, and thus I learnt with very formal textbooks, which are all in lower cases!"***
+***"My hobby is baking. The interesting fact is that I have difficulty to read articles of capital letters. I didn't start to learn English until junior high, and thus I learnt with very formal textbooks, which are all in lower cases!"***
 
 **Favorite Quote:**
 
 >***"The truth has never been of any real value to any human being; it is a symbol for mathematicians and philosophers to pursue. In human relations kindness and lies are worth a thousand truths."*** @GG
 
-###2.3 Kai
+* ###2.3 Kai
 
 <div style="text-align:center" markdown="1">
 ![Microsoft Logo](http://www.appmaniaci.com/wp-content/uploads/2012/08/microsoft-nuovo-logo.jpg)
@@ -104,10 +106,10 @@ knitr::include_url("https://drive.google.com/file/d/0BxPcGlt5CwbtVmU4VlNMdkw5WFk
 Eat and travel. I have been to 40 different countries.
 
 **Favorite Quote:**
-What doesn't kill you makes you stronger.
+What doesn't kill you makes you stronger. @samuels2008doesn
 
 
-###2.4 Eric Song
+* ###2.4 Eric Song
 
 <div style="text-align:center" markdown="1">
 ![Didadidadididodo Diiidadidido](http://dereksmoore.com//assets/work/hamster-dance/hamsterdance3.gif)
@@ -137,10 +139,11 @@ I enjoy traveling. My favorite part is seeing new cultures and trying different 
 |Stat297 | 12:00pm TTr |
 +--------+-------------+
 
+---
 
 ##4.0 R Markdown Syntax
 
-###4.1 Cache Example
+* ###4.1 Cache Example
 
 Example of cache leading to misleading answers: 
 
@@ -150,7 +153,7 @@ cache=TRUE for all of these
 (x = 8)
 ```
 ```{r, cache=TRUE,results='hide'}
-(y = 2 * x)
+(y = 2 * x + 5)
 ```
 The current values for $x$ = `r x` and $y$ = `r y`
 
@@ -159,7 +162,7 @@ The current values for $x$ = `r x` and $y$ = `r y`
 ```
 The current values for $x$ = `r x` and $y$ = `r y`
 
-###4.2 Random Sample Example
+* ###4.2 Random Sample Example
 
 ```{r}
 x = rnorm(100)
@@ -183,12 +186,12 @@ if(variance == 1){
 }
 ```
 
-###4.3 Histogram Example
-```{r, fig.cap=paste("The histgram of x")}
+* ###4.3 Histogram Example
+```{r, fig.cap=paste("The histogram of x")}
 hist(x)
 ```
 
-###4.4 Latex Equation Example
+* ###4.4 Latex Equation Example
 $$\begin{aligned}
      \mathbb{E} \left[ \text{var} \left\{
                      \boldsymbol{v}_1\left(
@@ -206,18 +209,18 @@ $$\begin{aligned}
 \end{aligned}$$
 
 
-###4.5 In-line Equation
-In-line Equation:$\mathbf{A} \equiv \left[a_{i,j}\right]_{i,j = 1, \ldots, p}$
+* ###4.5 In-line Equation
+In-line Equation:$\large \mathbf{A} \equiv \left[a_{i,j}\right]_{i,j = 1, \ldots, p}$
 
-###4.6 Blue Text Example
+* ###4.6 Blue Text Example
 
 <span style="color:blue">“Vérité dans un temps, erreur dans un autre.”, Charles de Montesquieu</span>.
 
-###4.7 Button Example
+* ###4.7 Button Example
 
 actionButton(inputId, label, icon = NULL, width = NULL, ...)
 
-###4.8 Colored Box Example
+* ###4.8 Colored Box Example
 ```
 .foo {
   float: left;
@@ -238,6 +241,6 @@ actionButton(inputId, label, icon = NULL, width = NULL, ...)
 .wine {
   background: #ae163e;
 ```
-
+---
 
 ##References
