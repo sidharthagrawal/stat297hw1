@@ -187,7 +187,8 @@ if(variance == 1){
 ```
 
 * ###4.3 Histogram Example
-```{r, fig.cap=paste("The histogram of x")}
+fig.cap="**Figure 1:** some text", fig.align='center'
+```{r, fig.cap="**Figure 1:** histogram of x", fig.align='center'}
 hist(x)
 ```
 
