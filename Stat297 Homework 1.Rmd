@@ -12,22 +12,23 @@ bibliography: biblio.bib
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-#2.0 Introduction
 <center>
 ```{r, echo=FALSE}
 knitr::include_url("https://drive.google.com/file/d/0BxPcGlt5CwbtVmU4VlNMdkw5WFk/preview")
 ```
 </center>
 
-***"We uploaded a video wherein we intrudouce ourselves and then share our favorite quote, our hobbies and our class schedules. THen we followed the instructions in the homework to complete all the tasks."***
+#2.0 Introduction
+***"We uploaded a video where we introduced ourselves and then shared our favorite quote, our hobbies and our class schedules. Then we followed the instructions in the homework to complete all the tasks."***
 
 ##Group Members
 
 ###2.1 Sidharth
 
-**Picture:**
 
+<div style="text-align:center" markdown="1">
 ![Indian Flag](http://www.indiacelebrating.com/wp-content/uploads/Flag-of-India.jpg)
+</div>
 
 **My Favorite Hobby & Interesting Fact:**
 
@@ -52,10 +53,10 @@ knitr::include_url("https://drive.google.com/file/d/0BxPcGlt5CwbtVmU4VlNMdkw5WFk
 +--------+-------------+
 
 ###2.2 Kaiyi Wu
-**Picture:**
 
+<div style="text-align:center" markdown="1">
 ![Cute Hamster](https://fthmb.tqn.com/iajsvlclbrt-MRTTBUdl9F420Ow=/960x0/filters:no_upscale()/about/103304021-56a2bcfc3df78cf772796214.jpg){width=50%}
-
+</div>
 **My Class Schedule:**
 
 +--------+-------------+
@@ -81,9 +82,9 @@ knitr::include_url("https://drive.google.com/file/d/0BxPcGlt5CwbtVmU4VlNMdkw5WFk
 
 ###2.3 Kai
 
-**Picture:**
-
+<div style="text-align:center" markdown="1">
 ![Microsoft Logo](http://www.appmaniaci.com/wp-content/uploads/2012/08/microsoft-nuovo-logo.jpg)
+</div>
 
 +--------+-------------+
 |Course  |     Time    |
@@ -108,9 +109,9 @@ What doesn't kill you makes you stronger.
 
 ###2.4 Eric Song
 
-
+<div style="text-align:center" markdown="1">
 ![Didadidadididodo Diiidadidido](http://dereksmoore.com//assets/work/hamster-dance/hamsterdance3.gif)
-
+</div>
 
 
 **My Favorite Hobby & Interesting Fact:**
@@ -139,9 +140,11 @@ I enjoy traveling. My favorite part is seeing new cultures and trying different 
 
 ##4.0 R Markdown Syntax
 
-###4.1 Cache
+###4.1 Cache Example
 
-Example of cache leading to misleading answers:
+Example of cache leading to misleading answers: 
+
+cache=TRUE for all of these
 
 ```{r, cache=TRUE,results='hide'}
 (x = 8)
@@ -156,7 +159,7 @@ The current values for $x$ = `r x` and $y$ = `r y`
 ```
 The current values for $x$ = `r x` and $y$ = `r y`
 
-###4.2
+###4.2 Random Sample Example
 
 ```{r}
 x = rnorm(100)
@@ -180,12 +183,12 @@ if(variance == 1){
 }
 ```
 
-###4.3 hist graph
+###4.3 Histogram Example
 ```{r, fig.cap=paste("The histgram of x")}
 hist(x)
 ```
 
-###4.4 equation
+###4.4 Latex Equation Example
 $$\begin{aligned}
      \mathbb{E} \left[ \text{var} \left\{
                      \boldsymbol{v}_1\left(
@@ -202,12 +205,14 @@ $$\begin{aligned}
     &= \text{var} \left\{ \mathbf{v}_1\left( \boldsymbol{\theta}_0,n\right)  \right\}  + \mathcal{O}\left(n^{-2}\right).
 \end{aligned}$$
 
+
+###4.5 In-line Equation
 In-line Equation:$\mathbf{A} \equiv \left[a_{i,j}\right]_{i,j = 1, \ldots, p}$
 
-###4.5 blue text
+###4.6 Blue Text Example
 
-###more info
+###4.7 Button Example
 
-###color box
+###4.8 Colored Box Example
 
 ##References
