@@ -217,9 +217,10 @@ In-line Equation:$\large \mathbf{A} \equiv \left[a_{i,j}\right]_{i,j = 1, \ldots
 <span style="color:blue">“Vérité dans un temps, erreur dans un autre.”, Charles de Montesquieu</span>.
 
 * ###4.7 Button Example
-
-actionButton(inputId, label, icon = NULL, width = NULL, ...)
-
+<button id="hidebutton">Push me!</button>
+<div id="hideclass">
+It Works!
+</div>
 * ###4.8 Colored Box Example
 ```
 .foo {
@@ -241,6 +242,15 @@ actionButton(inputId, label, icon = NULL, width = NULL, ...)
 .wine {
   background: #ae163e;
 ```
+
 ---
 
 ##References
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript">
+    $("#hideclass").hide();
+    $("#hidebutton").click(function(){
+      $("#hideclass").toggle();
+    });
+</script>
