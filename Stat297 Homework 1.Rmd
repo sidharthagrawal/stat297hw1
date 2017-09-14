@@ -12,22 +12,23 @@ bibliography: biblio.bib
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-#2.0 Introduction
 <center>
 ```{r, echo=FALSE}
-knitr::include_url("x")
+knitr::include_url("https://drive.google.com/file/d/0BxPcGlt5CwbtVmU4VlNMdkw5WFk/preview")
 ```
 </center>
 
-***"We uploaded a video wherein we intrudouce ourselves and then share our favorite quote, our hobbies and our class schedules. THen we followed the instructions in the homework to complete all the tasks."***
+#2.0 Introduction
+***"We uploaded a video where we introduced ourselves and then shared our favorite quote, our hobbies and our class schedules. Then we followed the instructions in the homework to complete all the tasks."***
 
 ##Group Members
 
 ###2.1 Sidharth
 
-**Picture:**
 
+<div style="text-align:center" markdown="1">
 ![Indian Flag](http://www.indiacelebrating.com/wp-content/uploads/Flag-of-India.jpg)
+</div>
 
 **My Favorite Hobby & Interesting Fact:**
 
@@ -52,10 +53,10 @@ knitr::include_url("x")
 +--------+-------------+
 
 ###2.2 Kaiyi Wu
-**Picture:**
 
+<div style="text-align:center" markdown="1">
 ![Cute Hamster](https://fthmb.tqn.com/iajsvlclbrt-MRTTBUdl9F420Ow=/960x0/filters:no_upscale()/about/103304021-56a2bcfc3df78cf772796214.jpg){width=50%}
-
+</div>
 **My Class Schedule:**
 
 +--------+-------------+
@@ -81,9 +82,9 @@ knitr::include_url("x")
 
 ###2.3 Kai
 
-**Picture:**
-
+<div style="text-align:center" markdown="1">
 ![Microsoft Logo](http://www.appmaniaci.com/wp-content/uploads/2012/08/microsoft-nuovo-logo.jpg)
+</div>
 
 +--------+-------------+
 |Course  |     Time    |
@@ -108,11 +109,13 @@ What doesn't kill you makes you stronger.
 
 ###2.4 Eric Song
 
-**Picture:**
+<div style="text-align:center" markdown="1">
+![Didadidadididodo Diiidadidido](http://dereksmoore.com//assets/work/hamster-dance/hamsterdance3.gif)
+</div>
 
-![Science Department Banner](http://science.psu.edu/psu_eberly_blue.png)
 
 **My Favorite Hobby & Interesting Fact:**
+I enjoy traveling. My favorite part is seeing new cultures and trying different foods.  I'm currently planning to travel to Europe after I graduate.  An interesting fact is that I've been to most of the countries in Asia and visited over 20 states so far.
 
 **Favorite Quote:**
 
@@ -134,11 +137,29 @@ What doesn't kill you makes you stronger.
 |Stat297 | 12:00pm TTr |
 +--------+-------------+
 
+
 ##4.0 R Markdown Syntax
 
-###4.1 Chunk
+###4.1 Cache Example
 
-###4.2
+Example of cache leading to misleading answers: 
+
+cache=TRUE for all of these
+
+```{r, cache=TRUE,results='hide'}
+(x = 8)
+```
+```{r, cache=TRUE,results='hide'}
+(y = 2 * x)
+```
+The current values for $x$ = `r x` and $y$ = `r y`
+
+```{r recalc, cache=TRUE,results='hide'}
+(x = 4)
+```
+The current values for $x$ = `r x` and $y$ = `r y`
+
+###4.2 Random Sample Example
 
 ```{r}
 x = rnorm(100)
@@ -162,12 +183,12 @@ if(variance == 1){
 }
 ```
 
-###4.3 hist graph
+###4.3 Histogram Example
 ```{r, fig.cap=paste("The histgram of x")}
 hist(x)
 ```
 
-###4.4 equation
+###4.4 Latex Equation Example
 $$\begin{aligned}
      \mathbb{E} \left[ \text{var} \left\{
                      \boldsymbol{v}_1\left(
@@ -184,12 +205,39 @@ $$\begin{aligned}
     &= \text{var} \left\{ \mathbf{v}_1\left( \boldsymbol{\theta}_0,n\right)  \right\}  + \mathcal{O}\left(n^{-2}\right).
 \end{aligned}$$
 
+
+###4.5 In-line Equation
 In-line Equation:$\mathbf{A} \equiv \left[a_{i,j}\right]_{i,j = 1, \ldots, p}$
 
-###4.5 blue text
+###4.6 Blue Text Example
 
-###more info
+<span style="color:blue">“Vérité dans un temps, erreur dans un autre.”, Charles de Montesquieu</span>.
 
-###color box
+###4.7 Button Example
+
+actionButton(inputId, label, icon = NULL, width = NULL, ...)
+
+###4.8 Colored Box Example
+```
+.foo {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.blue {
+  background: #13b4ff;
+}
+
+.purple {
+  background: #ab3fdd;
+}
+
+.wine {
+  background: #ae163e;
+```
+
 
 ##References
