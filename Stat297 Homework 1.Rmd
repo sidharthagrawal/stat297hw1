@@ -211,8 +211,33 @@ In-line Equation:$\mathbf{A} \equiv \left[a_{i,j}\right]_{i,j = 1, \ldots, p}$
 
 ###4.6 Blue Text Example
 
+<span style="color:blue">“Vérité dans un temps, erreur dans un autre.”, Charles de Montesquieu</span>.
+
 ###4.7 Button Example
 
+actionButton(inputId, label, icon = NULL, width = NULL, ...)
+
 ###4.8 Colored Box Example
+```
+.foo {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.blue {
+  background: #13b4ff;
+}
+
+.purple {
+  background: #ab3fdd;
+}
+
+.wine {
+  background: #ae163e;
+```
+
 
 ##References
